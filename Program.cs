@@ -1,14 +1,13 @@
 ﻿public class HaloGeneric
 {
-    public void SapaUser()
+    public void SapaUser<T> (T input)
     {
-        string input = "praktikan";
         Console.WriteLine("Halo User " + input);
     }
     public static void Main(string[] args)
     {
-        HaloGeneric haloGeneric = new HaloGeneric();
-
-        haloGeneric.SapaUser();
+        HaloGeneric halo = new HaloGeneric();
+        string input = "praktikan";
+        halo.SapaUser(input);
     }
 }
