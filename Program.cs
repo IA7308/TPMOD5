@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ﻿public class HaloGeneric
 {
     public void SapaUser<T> (T input)
@@ -6,7 +6,7 @@
         Console.WriteLine("Halo User " + input);
     }
 }
-=======
+
 ﻿public class DataGeneric<T>
 {
     private T data;
@@ -35,4 +35,4 @@ public class Program
         
     }
 }
->>>>>>> generic-class
+
