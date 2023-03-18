@@ -5,12 +5,6 @@
     {
         Console.WriteLine("Halo User " + input);
     }
-    public static void Main(string[] args)
-    {
-        HaloGeneric halo = new HaloGeneric();
-        string input = "praktikan";
-        halo.SapaUser(input);
-    }
 }
 =======
 ﻿public class DataGeneric<T>
@@ -32,6 +26,10 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        HaloGeneric halo = new HaloGeneric();
+        string input = "praktikan";
+        halo.SapaUser(input);
+    
         DataGeneric<int> data = new DataGeneric<int>(1302210104);
         data.printData();
         
